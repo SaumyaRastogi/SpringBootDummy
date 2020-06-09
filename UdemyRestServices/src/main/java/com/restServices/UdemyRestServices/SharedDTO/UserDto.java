@@ -1,0 +1,94 @@
+package com.restServices.UdemyRestServices.SharedDTO;
+
+import java.io.Serializable;
+
+public class UserDto implements Serializable {
+
+	private static final long serialVersionUID = 4749826354531951227L;
+	private long id;
+	private String userId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private String encyptedPassword;
+	private String emailVerificationToken;
+	private boolean emailVerificationStatus;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getUserId() {
+		return userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+	
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getEncyptedPassword() {
+		return encyptedPassword;
+	}
+
+	public void setEncyptedPassword(String encyptedPassword) {
+		this.encyptedPassword = encyptedPassword;
+	}
+
+	public String getEmailVerificationToken() {
+		return emailVerificationToken;
+	}
+
+	public void setEmailVerificationToken(String emailVerificationToken) {
+		this.emailVerificationToken = emailVerificationToken;
+	}
+
+	public boolean isEmailVerificationStatus() {
+		return emailVerificationStatus;
+	}
+
+	public void setEmailVerificationStatus(boolean emailVerificationStatus) {
+		this.emailVerificationStatus = emailVerificationStatus;
+	}
+
+	
+
+}
